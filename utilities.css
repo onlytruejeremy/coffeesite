@@ -184,3 +184,10 @@
 .xl {
   font-size: 4rem;
 }
+
+.flex-center {
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  width: 200px;
+}
