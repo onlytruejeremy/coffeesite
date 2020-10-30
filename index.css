@@ -192,6 +192,10 @@ textarea {
   }
   .showcase {
     height: auto;
+    width: 100vw;
+  }
+  .cloud {
+    width: 100vw;
   }
   .showcase-text {
     text-align: center;
