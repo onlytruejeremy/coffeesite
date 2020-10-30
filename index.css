@@ -222,6 +222,9 @@ textarea {
     grid-template-rows: 1fr !important;
     grid-template-columns: 1fr !important;
   }
+  .modded::before {
+    display: none;
+  }
 }
 
 .features-head img {
