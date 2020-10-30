@@ -186,7 +186,8 @@ textarea {
   .stats .grid,
   .cli .grid,
   .cloud .grid,
-  .features-main .grid {
+  .features-main .grid,
+  .container .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -212,6 +213,7 @@ textarea {
   .features-head,
   .features-sub-head {
     text-align: center;
+    width: 100vw;
   }
   .features-head img,
   .features-sub-head img {
