@@ -186,8 +186,7 @@ textarea {
   .stats .grid,
   .cli .grid,
   .cloud .grid,
-  .features-main .grid,
-  .container .grid {
+  .features-main .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -213,11 +212,15 @@ textarea {
   .features-head,
   .features-sub-head {
     text-align: center;
-    width: 100vw;
   }
   .features-head img,
   .features-sub-head img {
-    justify-self: center;
+    justify-self: center !important;
+    width: 50%;
+  }
+  .grid-mobile {
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr !important;
   }
 }
 
